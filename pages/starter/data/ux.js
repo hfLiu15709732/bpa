@@ -1,50 +1,26 @@
 const ux = {
-    name: '反馈',
-    icon: 'chat',
+    name: '任务助手',
+    icon: 'tree-list',
     childArr: [
         {
-            name: 'ActionSheet',
-            label: '动作面板',
+            name: 'FuncA',
+            label: '功能1',
         },
         {
-            name: 'Dialog',
-            label: '对话框',
+            name: 'FuncE',
+            label: '功能6',
         },
         {
-            name: 'DropdownMenu',
-            label: '下拉菜单',
+            name: 'FuncD',
+            label: '功能4',
         },
         {
-            name: 'Loading',
-            label: '加载',
+            name: 'FuncC',
+            label: '功能3',
         },
         {
-            name: 'Message',
-            label: '消息通知',
-        },
-        {
-            name: 'NoticeBar',
-            label: '公告栏',
-        },
-        {
-            name: 'Overlay',
-            label: '遮罩层',
-        },
-        {
-            name: 'Popup',
-            label: '弹出层',
-        },
-        {
-            name: 'PullDownRefresh',
-            label: '下拉刷新',
-        },
-        {
-            name: 'SwipeCell',
-            label: '滑动操作',
-        },
-        {
-            name: 'Toast',
-            label: '轻提示',
+            name: 'FuncB',
+            label: '功能2',
         },
     ],
 };

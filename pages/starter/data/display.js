@@ -1,70 +1,26 @@
 const display = {
-    name: '数据展示',
-    icon: 'image',
+    name: '掌上社区',
+    icon: 'radio-2',
     childArr: [
         {
-            name: 'Avatar',
-            label: '头像',
+            name: 'FuncA',
+            label: '功能1',
         },
         {
-            name: 'Badge',
-            label: '徽标',
+            name: 'FuncE',
+            label: '功能6',
         },
         {
-            name: 'Cell',
-            label: '单元格',
+            name: 'FuncD',
+            label: '功能4',
         },
         {
-            name: 'Collapse',
-            label: '折叠面板',
+            name: 'FuncC',
+            label: '功能3',
         },
         {
-            name: 'CountDown',
-            label: '倒计时',
-        },
-        {
-            name: 'Empty',
-            label: '空状态',
-        },
-        {
-            name: 'Footer',
-            label: '页脚',
-        },
-        {
-            name: 'Grid',
-            label: '宫格',
-        },
-        {
-            name: 'Image',
-            label: '图片',
-        },
-        {
-            name: 'ImageViewer',
-            label: '图片预览',
-        },
-        {
-            name: 'Progress',
-            label: '进度条',
-        },
-        {
-            name: 'Result',
-            label: '结果',
-        },
-        {
-            name: 'Skeleton',
-            label: '骨架屏',
-        },
-        {
-            name: 'Sticky',
-            label: '吸顶',
-        },
-        {
-            name: 'Swiper',
-            label: '轮播图',
-        },
-        {
-            name: 'Tag',
-            label: '标签',
+            name: 'FuncB',
+            label: '功能2',
         },
     ],
 };

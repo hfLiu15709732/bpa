@@ -1,38 +1,26 @@
 const nav = {
-    name: ' 导航',
-    icon: 'view-module',
+    name: ' 高精导航',
+    icon: 'map-marked',
     childArr: [
         {
-            name: 'BackTop',
-            label: '返回顶部',
+            name: 'FuncA',
+            label: '功能1',
         },
         {
-            name: 'Drawer',
-            label: '抽屉',
+            name: 'FuncE',
+            label: '功能6',
         },
         {
-            name: 'Indexes',
-            label: '索引',
+            name: 'FuncD',
+            label: '功能4',
         },
         {
-            name: 'Navbar',
-            label: '导航栏',
+            name: 'FuncC',
+            label: '功能3',
         },
         {
-            name: 'SideBar',
-            label: '侧边栏',
-        },
-        {
-            name: 'Steps',
-            label: '步骤条',
-        },
-        {
-            name: 'TabBar',
-            label: '标签栏',
-        },
-        {
-            name: 'Tabs',
-            label: '选项卡',
+            name: 'FuncB',
+            label: '功能2',
         },
     ],
 };

@@ -4,22 +4,22 @@
 const menuData = [
   [
     {
-      title: '收货地址',
+      title: '任务排行榜',
       tit: '',
-      url: '',
-      type: 'address',
+      url: '/pages/ranking/ranking',
+      type: 'rank',
     },
     {
       title: '优惠券',
       tit: '',
-      url: '',
-      type: 'coupon',
+      url: '/pages/ranking/ranking',
+      type: 'rank',
     },
     {
       title: '积分',
       tit: '',
-      url: '',
-      type: 'point',
+      url: '/pages/ranking/ranking',
+      type: 'rank',
     },
   ],
   [
@@ -81,6 +81,15 @@ const orderTagInfos = [
 Page({
   data: {
     showMakePhone: false,
+    logoList: [
+        {
+          icon: 'https://tdesign.gtimg.com/mobile/demos/logo2.png',
+          title: '新苗同学APP',
+        },
+        {
+          url: 'https://tdesign.gtimg.com/mobile/demos/logo1.png',
+        },
+      ],
     userInfo: {
       avatarUrl: '',
       nickName: '正在登录...',
@@ -118,11 +127,13 @@ Page({
 
 
   onClickCell({ currentTarget }) {
+      console.log(2);
     const { type } = currentTarget.dataset;
+    console.log(type);
 
     switch (type) {
-      case 'address': {
-        wx.navigateTo({ url: '/pages/usercenter/address/list/index' });
+      case 'rank': {
+        wx.navigateTo({ url: '/pages/ranking/ranking' });
         break;
       }
       case 'service': {

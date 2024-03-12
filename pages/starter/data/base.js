@@ -1,26 +1,26 @@
 const base = {
-    name: '基础',
-    icon: 'app',
+    name: '数字迎新',
+    icon: 'earth',
     childArr: [
         {
-            name: 'Button',
-            label: '按钮',
+            name: 'FuncA',
+            label: '功能1',
         },
         {
-            name: 'Divider',
-            label: '分割线',
+            name: 'FuncE',
+            label: '功能6',
         },
         {
-            name: 'Fab',
-            label: '悬浮按钮',
+            name: 'FuncD',
+            label: '功能4',
         },
         {
-            name: 'Icon',
-            label: '图标',
+            name: 'FuncC',
+            label: '功能3',
         },
         {
-            name: 'Link',
-            label: '链接',
+            name: 'FuncB',
+            label: '功能2',
         },
     ],
 };
