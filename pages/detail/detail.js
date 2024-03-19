@@ -34,6 +34,17 @@ Page({
     interval: 5000,
     swiperList,
     navigation: { type: '', showControls: true },
+    pics: [
+        'https://tdesign.gtimg.com/mobile/demos/avatar1.png',
+        'https://tdesign.gtimg.com/mobile/demos/avatar2.png',
+        'https://tdesign.gtimg.com/mobile/demos/avatar3.png',
+        'https://tdesign.gtimg.com/mobile/demos/avatar4.png',
+        'https://tdesign.gtimg.com/mobile/demos/avatar5.png',
+        'https://tdesign.gtimg.com/mobile/demos/avatar1.png',
+        'https://tdesign.gtimg.com/mobile/demos/avatar4.png',
+        'https://tdesign.gtimg.com/mobile/demos/avatar5.png',
+        'https://tdesign.gtimg.com/mobile/demos/avatar1.png',
+      ],
     markers: [ //标志点的位置
         //位置0
         {
@@ -220,4 +231,10 @@ Page({
     const { dialogKey } = this.data;
     this.setData({ [dialogKey]: false });
   },
+
+  ToCheckMap(){
+      wx.navigateTo({
+        url: '/pages/checkMap/checkMap',
+      })
+  }
 })

@@ -37,19 +37,19 @@ Component({
             }
             else if(e.detail.value==2){
                 wx.navigateTo({
-                  url: '/pages/product/product',
-                })
+                    url: '/pages/product/product',
+                  })
 
             }
             else if(e.detail.value==3){
                 wx.navigateTo({
-                  url: '/pages/explore/explore',
-                })
+                    url: '/pages/explore/explore',
+                  })
             }
             else if(e.detail.value==4){
                 wx.navigateTo({
-                  url: '/pages/usercenter/usercenter',
-                })
+                    url: '/pages/usercenter/usercenter',
+                  })
             }
             
             

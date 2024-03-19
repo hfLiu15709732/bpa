@@ -10,24 +10,24 @@ const menuData = [
       type: 'rank',
     },
     {
-      title: '优惠券',
+      title: '申诉记录',
       tit: '',
-      url: '/pages/ranking/ranking',
-      type: 'rank',
+      url: '/pages/report/report',
+      type: 'report',
     },
     {
-      title: '积分',
+      title: '积分兑换',
       tit: '',
-      url: '/pages/ranking/ranking',
-      type: 'rank',
+      url: '/pages/mall/mall',
+      type: 'integral',
     },
   ],
   [
     {
-      title: '帮助中心',
+      title: '成就中心',
       tit: '',
       url: '',
-      type: 'help-center',
+      type: 'achievement',
     },
     {
       title: '客服热线',
@@ -134,6 +134,18 @@ Page({
     switch (type) {
       case 'rank': {
         wx.navigateTo({ url: '/pages/ranking/ranking' });
+        break;
+      }
+      case 'integral': {
+        wx.navigateTo({ url: '/pages/mall/mall' });
+        break;
+      }
+      case 'report': {
+        wx.navigateTo({ url: '/pages/report/report' });
+        break;
+      }
+      case 'achievement': {
+        wx.navigateTo({ url: '/pages/achievement/achievement' });
         break;
       }
       case 'service': {

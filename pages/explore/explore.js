@@ -1,6 +1,110 @@
 import Toast from 'tdesign-miniprogram/toast/index';
+
+const mockList=[{
+    title:"计算机楼",
+    address:"浙江工业大学计算机楼",
+    description:"学习的地方",
+    avatar:"https://img2.baidu.com/it/u=3067116972,2287217023&fm=253&fmt=auto&app=138&f=JPEG?w=600&h=378",
+    latitude:"30.228978",
+    longitude:"120.040441",
+    color:"#22ac38",
+    id:1
+},
+{
+    title:"计算机楼",
+    address:"浙江工业大学计算机楼",
+    description:"学习的地方",
+ avatar:"https://img2.baidu.com/it/u=3067116972,2287217023&fm=253&fmt=auto&app=138&f=JPEG?w=600&h=378",
+    latitude:"30.228978",
+    longitude:"120.040441",
+    color:"#22ac38",
+    id:2
+},
+{
+    title:"计算机楼",
+    address:"浙江工业大学计算机楼",
+    description:"学习的地方",
+ avatar:"https://img2.baidu.com/it/u=3067116972,2287217023&fm=253&fmt=auto&app=138&f=JPEG?w=600&h=378",
+    latitude:"30.228978",
+    longitude:"120.040441",
+    color:"#22ac38",
+    id:3
+},{
+    title:"计算机楼",
+    address:"浙江工业大学计算机楼",
+    description:"学习的地方",
+ avatar:"https://img2.baidu.com/it/u=3067116972,2287217023&fm=253&fmt=auto&app=138&f=JPEG?w=600&h=378",
+    latitude:"30.228978",
+    longitude:"120.040441",
+    color:"#22ac38",
+    id:4
+},{
+    title:"计算机楼",
+    address:"浙江工业大学计算机楼",
+    description:"学习的地方",
+ avatar:"https://img2.baidu.com/it/u=3067116972,2287217023&fm=253&fmt=auto&app=138&f=JPEG?w=600&h=378",
+    latitude:"30.228978",
+    longitude:"120.040441",
+    color:"#22ac38",
+    id:5
+},{
+    title:"计算机楼",
+    address:"浙江工业大学计算机楼",
+    description:"学习的地方",
+ avatar:"https://img2.baidu.com/it/u=3067116972,2287217023&fm=253&fmt=auto&app=138&f=JPEG?w=600&h=378",
+    latitude:"30.228978",
+    longitude:"120.040441",
+    color:"#22ac38",
+    id:6
+},{
+    title:"计算机楼",
+    address:"浙江工业大学计算机楼",
+    description:"学习的地方",
+ avatar:"https://img2.baidu.com/it/u=3067116972,2287217023&fm=253&fmt=auto&app=138&f=JPEG?w=600&h=378",
+    latitude:"30.228978",
+    longitude:"120.040441",
+    color:"#22ac38",
+    id:7
+},{
+    title:"计算机楼",
+    address:"浙江工业大学计算机楼",
+    description:"学习的地方",
+ avatar:"https://img2.baidu.com/it/u=3067116972,2287217023&fm=253&fmt=auto&app=138&f=JPEG?w=600&h=378",
+    latitude:"30.228978",
+    longitude:"120.040441",
+    color:"#22ac38",
+    id:7,
+},{
+    title:"计算机楼",
+    address:"浙江工业大学计算机楼",
+    description:"学习的地方",
+ avatar:"https://img2.baidu.com/it/u=3067116972,2287217023&fm=253&fmt=auto&app=138&f=JPEG?w=600&h=378",
+    latitude:"30.228978",
+    longitude:"120.040441",
+    color:"#22ac38",
+    id:8,
+},{
+    title:"计算机楼",
+    address:"浙江工业大学计算机楼",
+    description:"学习的地方",
+ avatar:"https://img2.baidu.com/it/u=3067116972,2287217023&fm=253&fmt=auto&app=138&f=JPEG?w=600&h=378",
+    latitude:"30.228978",
+    longitude:"120.040441",
+    color:"#22ac38",
+    id:9,
+},{
+    title:"计算机楼",
+    address:"浙江工业大学计算机楼",
+    description:"学习的地方",
+ avatar:"https://img2.baidu.com/it/u=3067116972,2287217023&fm=253&fmt=auto&app=138&f=JPEG?w=600&h=378",
+    latitude:"30.228978",
+    longitude:"120.040441",
+    color:"#22ac38",
+    id:9,
+}]
 Page({
     data: { 
+        mockList:mockList,
         confirmBtn: { content: '确定', variant: 'base' },
         dialogKey: '',
         showConfirm: false,
